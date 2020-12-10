@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: url("image/T2AIKyz.svg");
+    background-size: cover;
+    vertical-align: middle;
+    background-position: center center ;
+    color: antiquewhite;
+  }
+
+header {
+    background-color: transparent;
+}
+
+nav {
+    width: 90%;
+    min-height: 10vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex: 1 1 25rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    flex: 2 1 25rem;
+    font-size: 2rem;
+    align-self: center;
+  }
+
+.nav-button{
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    background: transparent;
+    color: aliceblue;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-height: 90vh;
+    margin: auto;
+    max-height: 100vh;
+    
+   
+}
+
+.container-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1 1 30rem;
+    align-items: center;
+    min-height: 60vh;
+
+}
+
+.container-button{
+    min-height: 10vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.output-text,.input-text{
+    margin-top: 10rem;
+    height: 10rem;
+    width: 20rem;
+    background: transparent;
+    outline: none;
+    font-size: 2rem;
+     resize: none;
+     color: teal
+   
+}
+
+.div-text textarea{
+    border: none;
+    outline: none;
+    
+}
+
+.div-text textarea:focus::placeholder{
+    color: transparent;
+}
+
+
+
