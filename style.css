@@ -38,6 +38,7 @@ ul {
     flex: 2 1 25rem;
     font-size: 2rem;
     align-self: center;
+    font-family: 'Cinzel Decorative', cursive;
   }
 
 .nav-button{
