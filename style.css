@@ -10,7 +10,7 @@ body {
     background-size: cover;
     vertical-align: middle;
     background-position: center center ;
-    color: antiquewhite;
+
   }
 
 header {
@@ -19,7 +19,7 @@ header {
 
 nav {
     width: 90%;
-    min-height: 10vh;
+    min-height: 15vh;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -39,21 +39,24 @@ ul {
     font-size: 2rem;
     align-self: center;
     font-family: 'Cinzel Decorative', cursive;
+    color: #4B5563;
   }
 
 .nav-button{
-    font-size: 1rem;
     padding: .5rem 1rem;
     border-radius: 10px;
     background: transparent;
-    color: aliceblue;
+    color: #9CA3AF;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Cinzel Decorative', cursive;
 }
 
 .container-main{
     display: flex;
     flex-direction: column;
     width: 90%;
-    min-height: 90vh;
+    min-height: 80vh;
     margin: auto;
     max-height: 100vh;
     
@@ -67,7 +70,7 @@ ul {
     flex-wrap: wrap;
     flex: 1 1 30rem;
     align-items: center;
-    min-height: 60vh;
+    min-height: 70vh;
 
 }
 
@@ -80,14 +83,15 @@ ul {
 }
 
 .output-text,.input-text{
-    margin-top: 10rem;
+    margin-top: 8rem;
     height: 10rem;
     width: 20rem;
     background: transparent;
     outline: none;
     font-size: 2rem;
-     resize: none;
-     color: teal
+    resize: none;
+    color: #9CA3AF;
+    padding: 0 1rem;
    
 }
 
